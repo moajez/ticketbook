@@ -13,6 +13,10 @@ export default function NotFoundScreen() {
         <Link href="/" style={styles.link}>
           <ThemedText type="link">Go to home screen!</ThemedText>
         </Link>
+        <ThemedText type="subtitle">
+          Please make sure to check the URL or navigate to the correct screen.
+        </ThemedText>
+        {/* <Text className='flex-row '> Screen Not Found</Text> */}
       </ThemedView>
     </>
   );
